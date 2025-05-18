@@ -154,6 +154,9 @@ public class Dashboard extends javax.swing.JFrame {
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
+        PenjualanMenu pnj = new PenjualanMenu();
+        pnj.setVisible(true);
+         dispose();
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void btnLogoutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLogoutActionPerformed
