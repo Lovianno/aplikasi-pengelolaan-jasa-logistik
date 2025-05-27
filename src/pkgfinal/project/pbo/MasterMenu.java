@@ -116,28 +116,6 @@ public class MasterMenu extends javax.swing.JFrame {
         lblUsername = new javax.swing.JLabel();
         btnLogout = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
-        cardProduk = new javax.swing.JPanel();
-        jLabel8 = new javax.swing.JLabel();
-        jScrollPane2 = new javax.swing.JScrollPane();
-        jTable2 = new javax.swing.JTable();
-        jLabel9 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
-        jLabel12 = new javax.swing.JLabel();
-        jComboBox2 = new javax.swing.JComboBox<>();
-        jTextField8 = new javax.swing.JTextField();
-        jTextField9 = new javax.swing.JTextField();
-        jLabel13 = new javax.swing.JLabel();
-        jLabel14 = new javax.swing.JLabel();
-        jButton10 = new javax.swing.JButton();
-        jButton11 = new javax.swing.JButton();
-        jButton12 = new javax.swing.JButton();
-        jButton13 = new javax.swing.JButton();
-        jButton14 = new javax.swing.JButton();
-        jScrollPane3 = new javax.swing.JScrollPane();
-        jTextArea1 = new javax.swing.JTextArea();
-        jTextField10 = new javax.swing.JTextField();
-        jTextField11 = new javax.swing.JTextField();
         cardMitra = new javax.swing.JPanel();
         jScrollPane4 = new javax.swing.JScrollPane();
         jTable3 = new javax.swing.JTable();
@@ -185,10 +163,33 @@ public class MasterMenu extends javax.swing.JFrame {
         jLabel32 = new javax.swing.JLabel();
         txtCariPegawai = new javax.swing.JTextField();
         btnCariPegawai = new javax.swing.JButton();
+        cardProduk = new javax.swing.JPanel();
+        jLabel8 = new javax.swing.JLabel();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        jTable2 = new javax.swing.JTable();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
+        jLabel12 = new javax.swing.JLabel();
+        jComboBox2 = new javax.swing.JComboBox<>();
+        jTextField8 = new javax.swing.JTextField();
+        jTextField9 = new javax.swing.JTextField();
+        jLabel13 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
+        jButton10 = new javax.swing.JButton();
+        jButton11 = new javax.swing.JButton();
+        jButton12 = new javax.swing.JButton();
+        jButton13 = new javax.swing.JButton();
+        jButton14 = new javax.swing.JButton();
+        jScrollPane3 = new javax.swing.JScrollPane();
+        jTextArea1 = new javax.swing.JTextArea();
+        jTextField10 = new javax.swing.JTextField();
+        jTextField11 = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel1.setBackground(new java.awt.Color(8, 63, 115));
+        jPanel1.setPreferredSize(new java.awt.Dimension(120, 198));
 
         btnProduk.setText("Produk");
         btnProduk.addActionListener(new java.awt.event.ActionListener() {
@@ -230,7 +231,7 @@ public class MasterMenu extends javax.swing.JFrame {
                         .addComponent(btnPegawai, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(btnMitra, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(btnProduk, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                .addContainerGap(29, Short.MAX_VALUE))
+                .addContainerGap(26, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -246,11 +247,14 @@ public class MasterMenu extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel2.setBackground(new java.awt.Color(8, 63, 115));
+        jPanel2.setPreferredSize(new java.awt.Dimension(780, 80));
 
         jLabel24.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        jLabel24.setForeground(new java.awt.Color(255, 255, 255));
         jLabel24.setText("SBA Logistik");
 
+        lblUsername.setForeground(new java.awt.Color(255, 255, 255));
         lblUsername.setText("Hi, Username");
 
         btnLogout.setText("Logout");
@@ -265,177 +269,29 @@ public class MasterMenu extends javax.swing.JFrame {
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                .addGap(20, 20, 20)
+                .addGap(21, 21, 21)
                 .addComponent(jLabel24)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                        .addComponent(btnLogout)
-                        .addGap(21, 21, 21))
-                    .addComponent(lblUsername, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 83, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addComponent(lblUsername, javax.swing.GroupLayout.PREFERRED_SIZE, 83, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnLogout))
+                .addGap(21, 21, 21))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGap(21, 21, 21)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel24)
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addComponent(lblUsername, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(btnLogout)))
-                .addContainerGap(34, Short.MAX_VALUE))
+                .addContainerGap(14, Short.MAX_VALUE))
         );
 
         jPanel3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel3.setLayout(new java.awt.CardLayout());
-
-        jLabel8.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel8.setText("Data Produk");
-
-        jTable2.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-
-            },
-            new String [] {
-                "Kode Produk", "Nama", "Kategori", "Deskripsi", "Kapasitas Mesin", "Panjang Bak"
-            }
-        ));
-        jTable2.setCellSelectionEnabled(true);
-        jScrollPane2.setViewportView(jTable2);
-
-        jLabel9.setText("Kode Produk :");
-
-        jLabel10.setText("Nama :");
-
-        jLabel11.setText("Kategori :");
-
-        jLabel12.setText("Deskripsi :");
-
-        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Pickup", "Truk" }));
-
-        jLabel13.setText("Panjang Bak :");
-
-        jLabel14.setText("Kapasitas Maksimal :");
-
-        jButton10.setText("Simpan");
-
-        jButton11.setText("Reset");
-
-        jButton12.setText("Tambah");
-        jButton12.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton12ActionPerformed(evt);
-            }
-        });
-
-        jButton13.setText("Ubah");
-
-        jButton14.setText("Hapus");
-
-        jTextArea1.setColumns(20);
-        jTextArea1.setRows(5);
-        jScrollPane3.setViewportView(jTextArea1);
-
-        javax.swing.GroupLayout cardProdukLayout = new javax.swing.GroupLayout(cardProduk);
-        cardProduk.setLayout(cardProdukLayout);
-        cardProdukLayout.setHorizontalGroup(
-            cardProdukLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane2)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, cardProdukLayout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 124, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(241, 241, 241))
-            .addGroup(cardProdukLayout.createSequentialGroup()
-                .addGroup(cardProdukLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(cardProdukLayout.createSequentialGroup()
-                        .addGap(22, 22, 22)
-                        .addComponent(jLabel9)
-                        .addGap(36, 36, 36))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, cardProdukLayout.createSequentialGroup()
-                        .addContainerGap()
-                        .addGroup(cardProdukLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel14)
-                            .addComponent(jLabel13)
-                            .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addGroup(cardProdukLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(cardProdukLayout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 264, Short.MAX_VALUE)
-                        .addComponent(jButton12)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jButton13)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jButton14))
-                    .addGroup(cardProdukLayout.createSequentialGroup()
-                        .addGap(12, 12, 12)
-                        .addGroup(cardProdukLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jTextField8)
-                            .addComponent(jTextField9)
-                            .addComponent(jTextField10)
-                            .addComponent(jComboBox2, 0, 196, Short.MAX_VALUE)
-                            .addComponent(jTextField11))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addGroup(cardProdukLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, cardProdukLayout.createSequentialGroup()
-                                .addComponent(jButton10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jButton11))
-                            .addComponent(jScrollPane3)
-                            .addGroup(cardProdukLayout.createSequentialGroup()
-                                .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(216, 216, 216)))))
-                .addContainerGap())
-        );
-        cardProdukLayout.setVerticalGroup(
-            cardProdukLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(cardProdukLayout.createSequentialGroup()
-                .addComponent(jLabel8)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 239, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(cardProdukLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton12)
-                    .addComponent(jButton13)
-                    .addComponent(jButton14))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 22, Short.MAX_VALUE)
-                .addGroup(cardProdukLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, cardProdukLayout.createSequentialGroup()
-                        .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 68, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addGroup(cardProdukLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jButton11)
-                            .addComponent(jButton10))
-                        .addGap(38, 38, 38))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, cardProdukLayout.createSequentialGroup()
-                        .addGroup(cardProdukLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(cardProdukLayout.createSequentialGroup()
-                                .addGap(6, 6, 6)
-                                .addComponent(jLabel9)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jLabel10))
-                            .addGroup(cardProdukLayout.createSequentialGroup()
-                                .addGroup(cardProdukLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(jTextField9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel12))
-                                .addGap(9, 9, 9)
-                                .addComponent(jTextField8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(cardProdukLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                    .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel11))))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(cardProdukLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel14)
-                            .addComponent(jTextField10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(cardProdukLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel13)
-                            .addComponent(jTextField11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(35, 35, 35))))
-        );
-
-        jPanel3.add(cardProduk, "card3");
 
         jTable3.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -507,7 +363,7 @@ public class MasterMenu extends javax.swing.JFrame {
                         .addComponent(jLabel17, javax.swing.GroupLayout.PREFERRED_SIZE, 79, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGroup(cardMitraLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(cardMitraLayout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 295, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 297, Short.MAX_VALUE)
                         .addComponent(jButton17)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(jButton18)
@@ -686,7 +542,7 @@ public class MasterMenu extends javax.swing.JFrame {
         cardPegawai.setLayout(cardPegawaiLayout);
         cardPegawaiLayout.setHorizontalGroup(
             cardPegawaiLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane5, javax.swing.GroupLayout.DEFAULT_SIZE, 643, Short.MAX_VALUE)
+            .addComponent(jScrollPane5, javax.swing.GroupLayout.DEFAULT_SIZE, 644, Short.MAX_VALUE)
             .addGroup(cardPegawaiLayout.createSequentialGroup()
                 .addGroup(cardPegawaiLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(cardPegawaiLayout.createSequentialGroup()
@@ -793,6 +649,153 @@ public class MasterMenu extends javax.swing.JFrame {
 
         jPanel3.add(cardPegawai, "card5");
 
+        jLabel8.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel8.setText("Data Produk");
+
+        jTable2.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "Kode Produk", "Nama", "Kategori", "Deskripsi", "Kapasitas Mesin", "Panjang Bak"
+            }
+        ));
+        jTable2.setCellSelectionEnabled(true);
+        jScrollPane2.setViewportView(jTable2);
+
+        jLabel9.setText("Kode Produk :");
+
+        jLabel10.setText("Nama :");
+
+        jLabel11.setText("Kategori :");
+
+        jLabel12.setText("Deskripsi :");
+
+        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Pickup", "Truk" }));
+
+        jLabel13.setText("Panjang Bak :");
+
+        jLabel14.setText("Kapasitas Maksimal :");
+
+        jButton10.setText("Simpan");
+
+        jButton11.setText("Reset");
+
+        jButton12.setText("Tambah");
+        jButton12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton12ActionPerformed(evt);
+            }
+        });
+
+        jButton13.setText("Ubah");
+
+        jButton14.setText("Hapus");
+
+        jTextArea1.setColumns(20);
+        jTextArea1.setRows(5);
+        jScrollPane3.setViewportView(jTextArea1);
+
+        javax.swing.GroupLayout cardProdukLayout = new javax.swing.GroupLayout(cardProduk);
+        cardProduk.setLayout(cardProdukLayout);
+        cardProdukLayout.setHorizontalGroup(
+            cardProdukLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jScrollPane2)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, cardProdukLayout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 124, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(241, 241, 241))
+            .addGroup(cardProdukLayout.createSequentialGroup()
+                .addGroup(cardProdukLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(cardProdukLayout.createSequentialGroup()
+                        .addGap(22, 22, 22)
+                        .addComponent(jLabel9)
+                        .addGap(36, 36, 36))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, cardProdukLayout.createSequentialGroup()
+                        .addContainerGap()
+                        .addGroup(cardProdukLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel14)
+                            .addComponent(jLabel13)
+                            .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addGroup(cardProdukLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(cardProdukLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 265, Short.MAX_VALUE)
+                        .addComponent(jButton12)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jButton13)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jButton14))
+                    .addGroup(cardProdukLayout.createSequentialGroup()
+                        .addGap(12, 12, 12)
+                        .addGroup(cardProdukLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(jTextField8)
+                            .addComponent(jTextField9)
+                            .addComponent(jTextField10)
+                            .addComponent(jComboBox2, 0, 196, Short.MAX_VALUE)
+                            .addComponent(jTextField11))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGroup(cardProdukLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, cardProdukLayout.createSequentialGroup()
+                                .addComponent(jButton10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jButton11))
+                            .addComponent(jScrollPane3)
+                            .addGroup(cardProdukLayout.createSequentialGroup()
+                                .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(216, 216, 216)))))
+                .addContainerGap())
+        );
+        cardProdukLayout.setVerticalGroup(
+            cardProdukLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(cardProdukLayout.createSequentialGroup()
+                .addComponent(jLabel8)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 239, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(cardProdukLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jButton12)
+                    .addComponent(jButton13)
+                    .addComponent(jButton14))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 22, Short.MAX_VALUE)
+                .addGroup(cardProdukLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, cardProdukLayout.createSequentialGroup()
+                        .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 68, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addGroup(cardProdukLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jButton11)
+                            .addComponent(jButton10))
+                        .addGap(38, 38, 38))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, cardProdukLayout.createSequentialGroup()
+                        .addGroup(cardProdukLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(cardProdukLayout.createSequentialGroup()
+                                .addGap(6, 6, 6)
+                                .addComponent(jLabel9)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jLabel10))
+                            .addGroup(cardProdukLayout.createSequentialGroup()
+                                .addGroup(cardProdukLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jTextField9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jLabel12))
+                                .addGap(9, 9, 9)
+                                .addComponent(jTextField8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(cardProdukLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                    .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jLabel11))))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(cardProdukLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel14)
+                            .addComponent(jTextField10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(cardProdukLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel13)
+                            .addComponent(jTextField11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(35, 35, 35))))
+        );
+
+        jPanel3.add(cardProduk, "card3");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -803,8 +806,8 @@ public class MasterMenu extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, 778, Short.MAX_VALUE))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -814,17 +817,13 @@ public class MasterMenu extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 501, Short.MAX_VALUE))
                 .addContainerGap())
         );
 
         pack();
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
-
-    private void jComboBox4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox4ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jComboBox4ActionPerformed
 
     private void btnProdukActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProdukActionPerformed
         // TODO add your handling code here:
@@ -849,98 +848,6 @@ public class MasterMenu extends javax.swing.JFrame {
          dispose();
     }//GEN-LAST:event_btnKembali1ActionPerformed
 
-    private void btnTambahPegawaiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTambahPegawaiActionPerformed
-            // TODO add your handling code here:
-                        clearForm();
-
-        setFormMode(true);
-    }//GEN-LAST:event_btnTambahPegawaiActionPerformed
-
-    private void btnResetPegawaiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnResetPegawaiActionPerformed
-        // TODO add your handling code here:
-                setFormMode(false);
-
-    }//GEN-LAST:event_btnResetPegawaiActionPerformed
-
-    private void pegawaiclick(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pegawaiclick
-        // TODO add your handling code here:
-           DefaultTableModel model = (DefaultTableModel) tblPegawai.getModel();
-int selectedIndexRow = tblPegawai.getSelectedRow();
-
-if (selectedIndexRow != -1) { // pastikan ada yang dipilih
-    txtIdpegawai.setText(model.getValueAt(selectedIndexRow, 1).toString());
-    txtNamapegawai.setText(model.getValueAt(selectedIndexRow, 2).toString());
-    cbJabatanpegawai.setSelectedItem(model.getValueAt(selectedIndexRow, 3).toString());
-    txtTelppegawai.setText(model.getValueAt(selectedIndexRow, 4).toString());
-    txtEmailpegawai.setText(model.getValueAt(selectedIndexRow, 5).toString());
-    txtPasswordpegawai.setText(model.getValueAt(selectedIndexRow, 6).toString());
-
-}
-
-    }//GEN-LAST:event_pegawaiclick
-
-    private void btnSimpanPegawaiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSimpanPegawaiActionPerformed
-
-    if(txtIdpegawai.getText().equals("")){
-       Pegawai pgw = new Pegawai(txtNamapegawai.getText(), cbJabatanpegawai.getSelectedItem().toString(), txtTelppegawai.getText(), txtEmailpegawai.getText(), txtPasswordpegawai.getText());
-       pgw.createPegawai();
-       JOptionPane.showMessageDialog(this, "Pegawai Berhasil disimpan", "Info", JOptionPane.INFORMATION_MESSAGE);
-
-    }
-    else{
-        Pegawai pgw = new Pegawai(Integer.parseInt(txtIdpegawai.getText()), txtNamapegawai.getText(), cbJabatanpegawai.getSelectedItem().toString(), txtTelppegawai.getText(), txtEmailpegawai.getText(), txtPasswordpegawai.getText());
-       pgw.updatePegawai();
-       JOptionPane.showMessageDialog(this, "Pegawai Berhasil disimpan");
-    }
-     setFormMode(false);
-
-           tampilPegawai(txtCariPegawai.getText());
-
-    }//GEN-LAST:event_btnSimpanPegawaiActionPerformed
-
-    private void btnUbahPegawaiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUbahPegawaiActionPerformed
-        // TODO add your handling code here:
-        if(txtIdpegawai.getText().equals("")){
-             JOptionPane.showMessageDialog(this, "Pilih pegawai terlebih dahulu!", "Error", JOptionPane.WARNING_MESSAGE);
-             return;
-        }
-
-        setFormMode(true);
-    }//GEN-LAST:event_btnUbahPegawaiActionPerformed
-
-    private void btnHapusPegawaiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnHapusPegawaiActionPerformed
-        // TODO add your handling code here:
-         if(txtIdpegawai.getText().equals("")){
-             JOptionPane.showMessageDialog(this, "Pilih pegawai terlebih dahulu!", "Error", JOptionPane.WARNING_MESSAGE);
-             return;
-        }
-         
-   int pilihan = JOptionPane.showConfirmDialog(
-    null,
-    "Apakah anda ingin menghapus data tersebut?",
-    "Hapus",
-    JOptionPane.OK_CANCEL_OPTION,
-    JOptionPane.WARNING_MESSAGE
-);
-
-if (pilihan == JOptionPane.OK_OPTION) {
-    Pegawai.deletePegawai(Integer.parseInt(txtIdpegawai.getText()));
-    JOptionPane.showMessageDialog(this, "Berhasil menghapus pegawai!", "Error", JOptionPane.INFORMATION_MESSAGE);
-    setFormMode(false);
-    tampilPegawai(txtCariPegawai.getText());
-}
-    }//GEN-LAST:event_btnHapusPegawaiActionPerformed
-
-    private void txtCariPegawaiKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtCariPegawaiKeyPressed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtCariPegawaiKeyPressed
-
-    private void btnCariPegawaiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCariPegawaiActionPerformed
-        // TODO add your handling code here:
-     tampilPegawai(txtCariPegawai.getText());
-
-    }//GEN-LAST:event_btnCariPegawaiActionPerformed
-
     private void btnLogoutActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLogoutActionPerformed
         // TODO add your handling code here:
          int pilihan = JOptionPane.showConfirmDialog(
@@ -958,9 +865,101 @@ if (pilihan == JOptionPane.OK_OPTION) {
 }
     }//GEN-LAST:event_btnLogoutActionPerformed
 
+    private void jComboBox4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jComboBox4ActionPerformed
+
     private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton12ActionPerformed
+
+    private void btnCariPegawaiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCariPegawaiActionPerformed
+        // TODO add your handling code here:
+        tampilPegawai(txtCariPegawai.getText());
+    }//GEN-LAST:event_btnCariPegawaiActionPerformed
+
+    private void txtCariPegawaiKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtCariPegawaiKeyPressed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtCariPegawaiKeyPressed
+
+    private void pegawaiclick(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pegawaiclick
+        // TODO add your handling code here:
+        DefaultTableModel model = (DefaultTableModel) tblPegawai.getModel();
+        int selectedIndexRow = tblPegawai.getSelectedRow();
+
+        if (selectedIndexRow != -1) { // pastikan ada yang dipilih
+            txtIdpegawai.setText(model.getValueAt(selectedIndexRow, 1).toString());
+            txtNamapegawai.setText(model.getValueAt(selectedIndexRow, 2).toString());
+            cbJabatanpegawai.setSelectedItem(model.getValueAt(selectedIndexRow, 3).toString());
+            txtTelppegawai.setText(model.getValueAt(selectedIndexRow, 4).toString());
+            txtEmailpegawai.setText(model.getValueAt(selectedIndexRow, 5).toString());
+            txtPasswordpegawai.setText(model.getValueAt(selectedIndexRow, 6).toString());
+
+        }
+    }//GEN-LAST:event_pegawaiclick
+
+    private void btnHapusPegawaiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnHapusPegawaiActionPerformed
+        // TODO add your handling code here:
+        if(txtIdpegawai.getText().equals("")){
+            JOptionPane.showMessageDialog(this, "Pilih pegawai terlebih dahulu!", "Error", JOptionPane.WARNING_MESSAGE);
+            return;
+        }
+
+        int pilihan = JOptionPane.showConfirmDialog(
+            null,
+            "Apakah anda ingin menghapus data tersebut?",
+            "Hapus",
+            JOptionPane.OK_CANCEL_OPTION,
+            JOptionPane.WARNING_MESSAGE
+        );
+
+        if (pilihan == JOptionPane.OK_OPTION) {
+            Pegawai.deletePegawai(Integer.parseInt(txtIdpegawai.getText()));
+            JOptionPane.showMessageDialog(this, "Berhasil menghapus pegawai!", "Error", JOptionPane.INFORMATION_MESSAGE);
+            setFormMode(false);
+            tampilPegawai(txtCariPegawai.getText());
+        }
+    }//GEN-LAST:event_btnHapusPegawaiActionPerformed
+
+    private void btnUbahPegawaiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUbahPegawaiActionPerformed
+        // TODO add your handling code here:
+        if(txtIdpegawai.getText().equals("")){
+            JOptionPane.showMessageDialog(this, "Pilih pegawai terlebih dahulu!", "Error", JOptionPane.WARNING_MESSAGE);
+            return;
+        }
+
+        setFormMode(true);
+    }//GEN-LAST:event_btnUbahPegawaiActionPerformed
+
+    private void btnTambahPegawaiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTambahPegawaiActionPerformed
+        // TODO add your handling code here:
+        clearForm();
+
+        setFormMode(true);
+    }//GEN-LAST:event_btnTambahPegawaiActionPerformed
+
+    private void btnResetPegawaiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnResetPegawaiActionPerformed
+        // TODO add your handling code here:
+        setFormMode(false);
+    }//GEN-LAST:event_btnResetPegawaiActionPerformed
+
+    private void btnSimpanPegawaiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSimpanPegawaiActionPerformed
+
+        if(txtIdpegawai.getText().equals("")){
+            Pegawai pgw = new Pegawai(txtNamapegawai.getText(), cbJabatanpegawai.getSelectedItem().toString(), txtTelppegawai.getText(), txtEmailpegawai.getText(), txtPasswordpegawai.getText());
+            pgw.createPegawai();
+            JOptionPane.showMessageDialog(this, "Pegawai Berhasil disimpan", "Info", JOptionPane.INFORMATION_MESSAGE);
+
+        }
+        else{
+            Pegawai pgw = new Pegawai(Integer.parseInt(txtIdpegawai.getText()), txtNamapegawai.getText(), cbJabatanpegawai.getSelectedItem().toString(), txtTelppegawai.getText(), txtEmailpegawai.getText(), txtPasswordpegawai.getText());
+            pgw.updatePegawai();
+            JOptionPane.showMessageDialog(this, "Pegawai Berhasil disimpan");
+        }
+        setFormMode(false);
+
+        tampilPegawai(txtCariPegawai.getText());
+    }//GEN-LAST:event_btnSimpanPegawaiActionPerformed
 
     /**
      * @param args the command line arguments
