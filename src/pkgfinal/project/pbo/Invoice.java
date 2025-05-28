@@ -102,17 +102,5 @@ public class Invoice {
             e.printStackTrace();
         }
     }
-        public static void deleteInvoice() {
-        // logika hapus dari database nanti di sini
-         String sql = "DELETE FROM invoice WHERE no_invoice = ?";
-        try (PreparedStatement stmt = conn.prepareStatement(sql)) {
-            stmt.setString(1, noInvoice);
-            int rowsAffected = stmt.executeUpdate();
-            
-        } catch (SQLException e) {
-            System.out.println("Gagal menghapus invoice.");
-            e.printStackTrace();
-        }
-    }
 }
 
